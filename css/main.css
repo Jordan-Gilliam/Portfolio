@@ -2,7 +2,7 @@
 
 html {
   background-color: #5f45bb;
-  background-image: linear-gradient( 135deg, #FAB2FF 10%, #1904E5 100%);
+  background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);
   color: #fff;
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
@@ -120,6 +120,7 @@ a {
   margin-top: 1.5rem;
   vertical-align: top;
 }
+
 .portfolio {
   display: inline-block;
   margin-top: 1.5rem;
@@ -200,7 +201,8 @@ a {
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
   text-align: center;
-  font-size: 55px
+  font-size: 55px;
+  font-weight: bolder;
 }
 
 .card {
@@ -210,7 +212,9 @@ a {
   padding: 10 10 10 10;
   align-items: center;
   text-align: center;
+  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
 }
+
 .card-image {
   height: auto;
   width: 100%;
